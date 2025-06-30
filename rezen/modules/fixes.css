@@ -1,3 +1,10 @@
+/* UI FONT */
+* {
+    font-family: "SF Pro Display", sans-serif !important;
+    font-size: 12px !important;
+    letter-spacing: 0.2px !important;
+}
+
 /* PiP Rounded Corners */
 @-moz-document url("chrome://global/content/pictureinpicture/player.xhtml")
 {

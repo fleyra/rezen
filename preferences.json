@@ -1,0 +1,28 @@
+[
+    {
+        "type": "text",
+        "label": "rezen Settings",
+        "margin": "10px 0 15px 0",
+        "size": "20px"
+    },
+    {
+        "type": "checkbox",
+        "property": "rezen-nogaps",
+        "label": "Enables Marginless mode."
+    },
+    {
+        "type": "checkbox",
+        "property": "rezen-compact.nogaps",
+        "label": "Enables Marginless only on compact mode."
+    },
+    {
+        "type": "checkbox",
+        "property": "zen.view.experimental-force-window-controls-left",
+        "label": "Force window controls to the left."
+    },
+    {
+        "type": "checkbox",
+        "property": "rezen-left.control.button",
+        "label": "Custom Window Control Buttons (Left Side)."
+    }
+]

@@ -7,12 +7,12 @@
     },
     {
         "type": "checkbox",
-        "property": "rezen-nogaps",
+        "property": "rezen-marginless",
         "label": "Enables Marginless mode."
     },
     {
         "type": "checkbox",
-        "property": "rezen-compact.nogaps",
+        "property": "rezen-compact.marginless",
         "label": "Enables Marginless only on compact mode."
     },
     {

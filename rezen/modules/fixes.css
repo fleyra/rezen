@@ -1,0 +1,12 @@
+/* PiP Rounded Corners */
+@-moz-document url("chrome://global/content/pictureinpicture/player.xhtml")
+{
+    html {
+        border-radius: 1rem !important;
+    }
+}
+
+/* Disable the sidebar from being dragged as a window */
+#TabsToolbar {
+    -moz-window-dragging: no-drag !important;
+}

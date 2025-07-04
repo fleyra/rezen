@@ -1,11 +1,5 @@
 [
     {
-        "type": "text",
-        "label": "rezen Settings",
-        "margin": "10px 0 15px 0",
-        "size": "20px"
-    },
-    {
         "type": "checkbox",
         "property": "rezen-marginless",
         "label": "Enables Marginless mode."

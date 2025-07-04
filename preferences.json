@@ -24,5 +24,10 @@
         "type": "checkbox",
         "property": "rezen-left.control.button",
         "label": "Custom Window Control Buttons (Left Side)."
+    },
+    {
+        "type": "checkbox",
+        "property": "rezen-auto.back-forward",
+        "label": "Hide Back and Forward buttons when not needed."
     }
 ]

@@ -2,26 +2,26 @@
     {
         "type": "checkbox",
         "property": "rezen-marginless",
-        "label": "Enables Marginless mode."
+        "label": "Enables marginless mode."
     },
     {
         "type": "checkbox",
         "property": "rezen-compact.marginless",
-        "label": "Enables Marginless only on compact mode."
+        "label": "Enables marginless only on compact mode."
     },
     {
         "type": "checkbox",
         "property": "zen.view.experimental-force-window-controls-left",
-        "label": "Force window controls to the left (Restart needed for changes to take effect)."
+        "label": "Force window control buttons to the left (Restart needed for changes to take effect)."
     },
     {
         "type": "checkbox",
         "property": "rezen-left.control.button",
-        "label": "Custom Window Control Buttons (Left Side)."
+        "label": "Custom window control buttons."
     },
     {
         "type": "checkbox",
         "property": "rezen-auto.back-forward",
-        "label": "Hide Back and Forward buttons when not needed."
+        "label": "Hide back and forward buttons when not needed."
     }
 ]

@@ -1,11 +1,11 @@
-/* --- UI FONT ---*/
+/* --- UI Font ---*/
 * {
     font-family: "SF Pro Display", sans-serif !important;
     /* font-size: 12px !important; */
     letter-spacing: 0.2px !important;
 }
 
-/* --- PiP Rounded Corners --- */
+/* --- PiP rounded corners --- */
 @-moz-document url("chrome://global/content/pictureinpicture/player.xhtml")
 {
     html {
@@ -40,4 +40,24 @@
 
 #BMB_bookmarksPopup menuseparator {
     display: none;
+}
+
+/* --- Hide Scrollbar --- */
+scrollbox {
+    scrollbar-width: none !important;
+}
+
+/* --- Floating Statusbar --- */
+#statuspanel {
+    margin: 10px !important;
+}
+
+#statuspanel-label {
+    border-radius: 11px !important;
+    padding: 3px 10px !important;
+    border: 1px solid var(--zen-colors-border) !important;
+    background: light-dark(
+        rgba(255, 255, 255, 1),
+        rgba(0, 0, 0, 0.9)
+    ) !important;
 }

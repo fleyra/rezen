@@ -4,9 +4,9 @@
     "author": "fleyra",
     "name": "rezen",
     "description": "A little mod for Zen Browser",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "createdAt": "2025-06-30",
-    "updatedAt": "2025-07-06",
+    "updatedAt": "2025-07-08",
     "style": {
         "chrome": "https://raw.githubusercontent.com/fleyra/rezen/main/userChrome.css"
     },

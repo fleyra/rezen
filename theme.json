@@ -4,13 +4,10 @@
     "author": "fleyra",
     "name": "rezen",
     "description": "A little mod for Zen Browser",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "createdAt": "2025-06-30",
-    "updatedAt": "2025-07-08",
-    "style": {
-        "chrome": "https://raw.githubusercontent.com/fleyra/rezen/main/userChrome.css"
-    },
-    "preferences": "https://raw.githubusercontent.com/fleyra/rezen/main/preferences.json",
+    "updatedAt": "2025-07-25",
+    "readme": "https://raw.githubusercontent.com/fleyra/rezen/main/README.md",
     "tags": ["content", "chrome", "minimal"],
     "fork": ["zen"]
 }

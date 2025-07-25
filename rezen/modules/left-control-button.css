@@ -1,6 +1,6 @@
 @-moz-document url-prefix("chrome:") {
+    /* Move Window Control Buttons to Left Side (macOS Style) */
     @media (-moz-bool-pref: "rezen-left.control.button") {
-        /* Move Window Control Buttons to Left Side (macOS Style) */
         .titlebar-buttonbox {
             margin-right: 1px;
             margin-top: -5px !important;
@@ -10,7 +10,6 @@
         .titlebar-button {
             padding: 0px !important;
             min-height: 14px !important;
-
             min-width: 14px !important;
             align-self: center;
             margin-right: 5px !important;
@@ -21,38 +20,30 @@
 
         .titlebar-close {
             order: -1 !important;
+            content: none !important;
+            scale: 0.9 !important;
+            margin-left: -2px !important;
+            background-color: var(--zen-toolbar-element-bg) !important;
+            border: 0.1px solid var(--zen-toolbar-element-bg) !important;
         }
 
         .titlebar-min {
-            /* background-color: #FDC92D !important;*/
-            background-color: var(--zen-toolbar-element-bg) !important;
-
+            content: none !important;
             scale: 0.9 !important;
+            background-color: var(--zen-toolbar-element-bg) !important;
             border: 1.1px solid var(--zen-toolbar-element-bg) !important;
-            /*border: 0px solid #8B8000 !important;*/
         }
 
         .titlebar-max,
         .titlebar-restore {
+            content: none !important;
             scale: 0.9 !important;
             margin-left: 0.8px !important;
             background-color: var(--zen-toolbar-element-bg) !important;
             border: 1.1px solid var(--zen-toolbar-element-bg) !important;
-            /* background-color: #28D33F !important;
-            border: 0px solid  #3e6a40 !important;*/
         }
 
-        .titlebar-close {
-            /*  background-color: #FE6254 !important;*/
-            margin-left: -2px !important;
-            border: 0.1px solid var(--zen-toolbar-element-bg) !important;
-            background-color: var(--zen-toolbar-element-bg) !important;
-            scale: 0.9 !important;
-
-            /* border: 0px solid #f44336 !important;
-      /* For SVG icons */
-        }
-
+        /* For SVG icons */
         .titlebar-close::after,
         .titlebar-min::after,
         .titlebar-max::after,
@@ -62,7 +53,6 @@
             width: 16px !important;
             height: 16px !important;
             opacity: 0 !important;
-
             transition: all 100ms !important;
         }
 
@@ -121,8 +111,7 @@
 
         /* Adjust specific window control buttons */
         .titlebar-buttonbox-container {
-            order: -1 !important;
-            /* Prioritize button placement */
+            order: -1 !important; /* Prioritize button placement */
             margin-left: 8px !important;
         }
 

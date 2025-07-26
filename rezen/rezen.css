@@ -1,3 +1,4 @@
-@import "modules/left-control-button.css";
-@import "modules/marginless.css";
 @import "modules/fixes.css";
+@import "modules/marginless.css";
+@import "modules/left-control-button.css";
+@import "modules/custom-audio-indicator.css";

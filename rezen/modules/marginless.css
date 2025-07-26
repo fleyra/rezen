@@ -1,4 +1,4 @@
-/* ---------------------- MARGINLESS MOD ------------------------ */
+/* --- Marginless --- */
 
 @media (-moz-bool-pref: "rezen-marginless") {
     [zen-single-toolbar="true"] {
@@ -22,7 +22,7 @@
     }
 }
 
-/* ----------------- MARGINLESS COMPACT MOD ----------------- */
+/* --- Marginless on Compact Mode --- */
 
 @media (-moz-bool-pref: "rezen-compact.marginless") {
     :root[zen-compact-mode="true"]:not([customizing]) {

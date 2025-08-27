@@ -1,4 +1,10 @@
+/* import config */
+@import "rezen-config.css";
+
+/* import modules */
 @import "modules/fixes.css";
 @import "modules/marginless.css";
 @import "modules/left-control-button.css";
 @import "modules/custom-audio-indicator.css";
+@import "modules/pinned-extensions.css";
+@import "modules/pinned-tabs-background.css";

@@ -6,8 +6,7 @@
 }
 
 /* --- PiP rounded corners --- */
-@-moz-document url("chrome://global/content/pictureinpicture/player.xhtml")
-{
+@-moz-document url("chrome://global/content/pictureinpicture/player.xhtml") {
     html {
         border-radius: 1rem !important;
     }
@@ -20,6 +19,7 @@
 
 /* --- Hide the back and forward buttons when they are not needed --- */
 @media (-moz-bool-pref: "rezen-auto.back-forward") {
+
     :root:not([customizing]) #back-button[disabled],
     :root:not([customizing]) #forward-button[disabled] {
         display: none !important;
@@ -56,14 +56,13 @@ scrollbox {
     border-radius: 11px !important;
     padding: 3px 10px !important;
     border: 1px solid var(--zen-colors-border) !important;
-    background: light-dark(
-        rgba(255, 255, 255, 1),
-        rgba(0, 0, 0, 0.9)
-    ) !important;
+    background: light-dark(rgba(255, 255, 255, 1),
+            rgba(0, 0, 0, 0.9)) !important;
 }
 
 /* --- Dim unloaded tabs --- */
 @media (-moz-bool-pref: "rezen-dim.unloaded.tabs") {
+
     .tab-icon-image[pending="true"],
     .tabbrowser-tab[pending="true"] .tab-text {
         opacity: 0.5 !important;

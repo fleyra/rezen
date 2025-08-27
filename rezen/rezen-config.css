@@ -1,0 +1,11 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --pins-bg-percentage: 40%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --pins-bg-percentage: 7%;
+    }
+}

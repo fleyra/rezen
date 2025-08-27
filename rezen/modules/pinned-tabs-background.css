@@ -1,0 +1,24 @@
+@media (-moz-bool-pref: "rezen-pinned.tabs.background") {
+
+    /* background color of pinned tabs in a normal state (not hovered/selected) */
+    .tabbrowser-tab[pinned]:not([zen-essential="true"]) .tab-stack .tab-background {
+        background-color: color-mix(in srgb, white var(--pins-bg-percentage), transparent) !important;
+    }
+
+    /* background color when hovering */
+    .tabbrowser-tab[pinned]:not([zen-essential="true"]):hover .tab-stack .tab-background {
+        background-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 3%), transparent) !important;
+    }
+
+    /* background color when selected */
+    .tabbrowser-tab[pinned]:not([zen-essential="true"])[selected="true"] .tab-stack .tab-background,
+    .tabbrowser-tab[pinned]:not([zen-essential="true"])[multiselected="true"] .tab-stack .tab-background {
+        background-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 15%), transparent) !important;
+    }
+
+    /* background color when selected and hovering*/
+    .tabbrowser-tab[pinned]:not([zen-essential="true"])[selected="true"]:hover .tab-stack .tab-background,
+    .tabbrowser-tab[pinned]:not([zen-essential="true"])[multiselected="true"]:hover .tab-stack .tab-background {
+        background-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 18%), transparent) !important;
+    }
+}

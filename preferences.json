@@ -33,5 +33,15 @@
         "type": "checkbox",
         "property": "rezen-dim.unloaded.tabs",
         "label": "Dim unloaded tabs."
+    },
+    {
+        "type": "checkbox",
+        "property": "rezen-pinned.extensions",
+        "label": "Enable pinned extensions."
+    },
+    {
+        "type": "checkbox",
+        "property": "rezen-pinned.tabs.background",
+        "label": "Add background color to pinned tabs."
     }
 ]

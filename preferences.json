@@ -28,5 +28,10 @@
         "type": "checkbox",
         "property": "rezen-custom-audio-indicator",
         "label": "Enable custom audio indicator."
+    },
+    {
+        "type": "checkbox",
+        "property": "rezen-dim.unloaded.tabs",
+        "label": "Dim unloaded tabs."
     }
 ]

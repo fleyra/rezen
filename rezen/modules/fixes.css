@@ -5,13 +5,6 @@
     letter-spacing: 0.2px !important;
 }
 
-/* --- PiP rounded corners --- */
-@-moz-document url("chrome://global/content/pictureinpicture/player.xhtml") {
-    html {
-        border-radius: 1rem !important;
-    }
-}
-
 /* --- Disable the sidebar from being dragged as a window --- */
 #TabsToolbar {
     -moz-window-dragging: no-drag !important;
@@ -66,5 +59,16 @@ scrollbox {
     .tab-icon-image[pending="true"],
     .tabbrowser-tab[pending="true"] .tab-text {
         opacity: 0.5 !important;
+    }
+}
+
+/* --- Hide separators --- */
+@media (-moz-bool-pref: "rezen-hide.separators") {
+    menuseparator::before {
+        border-top: none !important;
+    }
+
+    menuseparator {
+        padding-block: 0px !important;
     }
 }

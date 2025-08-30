@@ -43,5 +43,10 @@
         "type": "checkbox",
         "property": "rezen-pinned.tabs.background",
         "label": "Add background color to pinned tabs."
+    },
+    {
+        "type": "checkbox",
+        "property": "rezen-hide.separators",
+        "label": "Hide separators."
     }
 ]

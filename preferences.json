@@ -12,7 +12,8 @@
     {
         "type": "checkbox",
         "property": "zen.view.experimental-force-window-controls-left",
-        "label": "Force window control buttons to the left (Restart needed for changes to take effect)."
+        "label": "Force window control buttons to the left (Restart needed for changes to take effect).",
+        "restart": true
     },
     {
         "type": "checkbox",

@@ -1,7 +1,8 @@
 /* Add rounded corners to player holder */
-.player-holder {
-    border-radius: 7.6px !important;
-    /* Adjust the radius as needed */
+@-moz-document url("chrome://global/content/pictureinpicture/player.xhtml") {
+    html {
+        border-radius: 1rem !important;
+    }
 }
 
 /* ------------------------- Nebula Picture in Picture ------------------------- */

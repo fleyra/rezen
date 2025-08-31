@@ -49,5 +49,11 @@
         "type": "checkbox",
         "property": "rezen-hide.separators",
         "label": "Hide separators."
+    },
+    {
+        "type": "checkbox",
+        "property": "gfx.webrender.dcomp-video-hw-overlay-win-force-enabled",
+        "label": "Enable Nvidia Video Super Resolution.",
+        "restart": true
     }
 ]

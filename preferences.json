@@ -12,13 +12,13 @@
     {
         "type": "checkbox",
         "property": "zen.view.experimental-force-window-controls-left",
-        "label": "Force window control buttons to the left (Restart needed for changes to take effect).",
+        "label": "Force window control buttons to the left.",
         "restart": true
     },
     {
         "type": "checkbox",
         "property": "rezen-left.control.button",
-        "label": "Custom window control buttons."
+        "label": "MacOS style window control buttons."
     },
     {
         "type": "checkbox",

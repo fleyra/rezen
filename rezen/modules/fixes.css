@@ -72,17 +72,3 @@ scrollbox {
         padding-block: 0px !important;
     }
 }
-
-/* --- Add rounded corners to PiP --- */
-@-moz-document url("chrome://global/content/pictureinpicture/player.xhtml") {
-
-    html,
-    .player-holder {
-        border-radius: var(--border-radius-medium) !important;
-        overflow: hidden !important;
-    }
-
-    .player-holder {
-        clip-path: none !important;
-    }
-}

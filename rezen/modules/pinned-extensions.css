@@ -1,3 +1,11 @@
+:root {
+    --extension-dark-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 3%), transparent);
+    --extension-dark-hover: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 10%), transparent);
+    --extension-light-color: color-mix(in srgb, black var(--pins-bg-percentage), transparent);
+    --extension-light-hover: color-mix(in srgb, black calc(var(--pins-bg-percentage) + 3%), transparent);
+}
+
+
 @media (-moz-bool-pref: "rezen-pinned.extensions") {
 
     /* Zen 1.12.6b Fix */
@@ -45,12 +53,12 @@
             width: 32px !important;
             flex-grow: 1 !important;
             order: -1 !important;
-            background-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 3%), transparent) !important;
+            background-color: light-dark(var(--extension-light-color), var(--extension-dark-color)) !important;
             border-radius: calc(var(--border-radius-medium) - 0.5px) !important;
         }
 
         .unified-extensions-item:hover {
-            background-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 10%), transparent) !important;
+            background-color: light-dark(var(--extension-light-hover), var(--extension-dark-hover)) !important;
         }
 
         >toolbarbutton:not([id="tabs-newtab-button"]):not(#sort-button):not(#clear-button),

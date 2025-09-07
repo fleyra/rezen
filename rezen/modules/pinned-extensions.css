@@ -45,12 +45,12 @@
             width: 32px !important;
             flex-grow: 1 !important;
             order: -1 !important;
-            background-color: color-mix(in srgb, white var(--pins-bg-percentage), transparent) !important;
+            background-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 3%), transparent) !important;
             border-radius: calc(var(--border-radius-medium) - 0.5px) !important;
         }
 
         .unified-extensions-item:hover {
-            background-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 3%), transparent) !important;
+            background-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 10%), transparent) !important;
         }
 
         >toolbarbutton:not([id="tabs-newtab-button"]):not(#sort-button):not(#clear-button),

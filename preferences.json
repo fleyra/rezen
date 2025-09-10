@@ -48,7 +48,8 @@
     {
         "type": "checkbox",
         "property": "gfx.webrender.super-resolution.nvidia",
-        "label": "Enable Nvidia Video Super Resolution (Enable Both)."
+        "label": "Enable Nvidia Video Super Resolution (Enable Both).",
+        "restart": true
     },
     {
         "type": "checkbox",

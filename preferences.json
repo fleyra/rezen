@@ -47,8 +47,13 @@
     },
     {
         "type": "checkbox",
+        "property": "gfx.webrender.super-resolution.nvidia",
+        "label": "Enable Nvidia Video Super Resolution (Enable Both)."
+    },
+    {
+        "type": "checkbox",
         "property": "gfx.webrender.dcomp-video-hw-overlay-win-force-enabled",
-        "label": "Enable Nvidia Video Super Resolution.",
+        "label": "Enable Nvidia Video Super Resolution (Enable Both).",
         "restart": true
     }
 ]

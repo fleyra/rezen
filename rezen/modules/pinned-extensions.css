@@ -1,11 +1,3 @@
-:root {
-    --extension-dark-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 3%), transparent);
-    --extension-dark-hover: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 10%), transparent);
-    --extension-light-color: color-mix(in srgb, black var(--pins-bg-percentage), transparent);
-    --extension-light-hover: color-mix(in srgb, black calc(var(--pins-bg-percentage) + 3%), transparent);
-}
-
-
 @media (-moz-bool-pref: "rezen-pinned.extensions") {
 
     /* Zen 1.12.6b Fix */

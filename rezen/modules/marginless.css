@@ -1,7 +1,7 @@
 /* --- Marginless --- */
 
 @media (-moz-bool-pref: "rezen-marginless") {
-    [zen-single-toolbar="true"] {
+    html[nebula-single-toolbar]:not(:has(tab-group[split-view-group] .tabbrowser-tab:is([selected="true"], [visuallyselected="true"]))) {
         #zen-appcontent-wrapper {
             position: relative;
         }
@@ -26,10 +26,9 @@
 
 @media (-moz-bool-pref: "rezen-compact.marginless") {
     :root[zen-compact-mode="true"]:not([customizing]) {
-        #zen-appcontent-wrapper:not(
-                :has(#tabbrowser-tabpanels[zen-split-view]),
-                :has(#zen-sidebar-web-panel:not([hidden]):not([pinned]))
-            ) {
+
+        #zen-appcontent-wrapper:not( :has(#tabbrowser-tabpanels[zen-split-view]),
+            :has(#zen-sidebar-web-panel:not([hidden]):not([pinned]))) {
             margin: 0 !important;
 
             #zen-tabbox-wrapper {

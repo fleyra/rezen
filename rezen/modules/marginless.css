@@ -1,7 +1,7 @@
 /* --- Marginless --- */
 
 @media (-moz-bool-pref: "rezen-marginless") {
-    [zen-single-toolbar="true"] {
+    [zen-single-toolbar="true"]:not(:has(tab-group[split-view-group] .tabbrowser-tab:is([selected="true"], [visuallyselected="true"]))) {
         #zen-appcontent-wrapper {
             position: relative;
         }

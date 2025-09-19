@@ -1,7 +1,7 @@
 /* --- Marginless --- */
 
 @media (-moz-bool-pref: "rezen-marginless") {
-    html[nebula-single-toolbar]:not(:has(tab-group[split-view-group] .tabbrowser-tab:is([selected="true"], [visuallyselected="true"]))) {
+    [zen-single-toolbar="true"] {
         #zen-appcontent-wrapper {
             position: relative;
         }

@@ -54,3 +54,12 @@
         padding-block: 0px !important;
     }
 }
+
+/* --- Disable box shadows --- */
+@media (-moz-bool-pref: "rezen-disable.box.shadows") {
+
+    hbox.browserSidebarContainer,
+    #zen-tabbox-wrapper {
+        box-shadow: none !important;
+    }
+}

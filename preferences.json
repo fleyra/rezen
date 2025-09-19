@@ -47,6 +47,11 @@
     },
     {
         "type": "checkbox",
+        "property": "rezen-disable.box.shadows",
+        "label": "Disable box shadows."
+    },
+    {
+        "type": "checkbox",
         "property": "gfx.webrender.super-resolution.nvidia",
         "label": "Enable Nvidia Video Super Resolution (Enable Both).",
         "restart": true

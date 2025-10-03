@@ -3,26 +3,54 @@
     --zen-settings-secondary-background: transparent !important;
 }
 
-groupbox:not(#sineInstallationGroup:popover-open) {
-    /*   background: var(--zen-colors-tertiary) !important; */
-    background: light-dark(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.35)) !important;
-    border: none;
+#preferences-root {
+    background-color: transparent !important;
 }
 
-@-moz-document url-prefix("about:") {
+html:has([data-l10n-id]) {
+    background-color: transparent !important;
+}
 
-    table,
-    .action-box {
-        background-color: light-dark(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.35)) !important;
-        border-radius: 13px !important;
-    }
+.KEYJUMP_hint {
+    border-radius: 100px !important;
+    background-color: #49FCBB !important;
+    color: #000 !important;
+    font-family: 'Product Sans', Sans !important;
+    font-weight: bold !important;
+    box-shadow: #0008 0 0 10px !important;
+    border: #0008 1px solid !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+@-moz-document url(about:config), url(about:support){
+
+html,
+#toolbar {
+    background-color: transparent !important;
+}
+
+tr,
+table {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+tr {
+    outline: solid 1px #88888822 !important;
+}
+}
+
+groupbox {
+    /*   background: var(--zen-colors-tertiary) !important; */
+    background: var(--zen-colors-border-contrast) !important;
+    border: none;
 }
 
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing){
 
 body,
 .App {
-    background-color: #00000070 !important;
+    background-color: #00000000 !important;
 }
 
 .top-sites-list,
@@ -37,6 +65,21 @@ body,
 
 .App>div:nth-child(2),
 .wallpaper {
+    display: none !important;
+}
+
+/*  no private hint  */
+.info-border>.info {
+    display: none !important;
+}
+
+/*  rounded search  */
+#search-handoff-button {
+    border-radius: 2em !important;
+}
+
+/*  no zen text  */
+.wordmark {
     display: none !important;
 }
 }
@@ -65,21 +108,12 @@ footer {
 }
 }
 
-@-moz-document url(about:config){
 
-tr,
-table {
+/* transparency */
+.pdfViewer,
+body:has(.pdfViewer) {
     background-color: transparent !important;
+    background: none !important;
     border: none !important;
-}
-
-tr {
-    outline: solid 1px #88888822 !important;
-}
-}
-
-/* Fixes the transparent dialogs. */
-.dialogFrame {
-    background: var(--zen-dialog-background);
-    border-radius: 8px;
+    box-shadow: none !important;
 }

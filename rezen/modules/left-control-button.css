@@ -114,14 +114,14 @@
         .titlebar-buttonbox-container {
             order: -1 !important;
             /* Prioritize button placement */
-            margin-left: 8px !important;
+            margin-left: 7px !important;
         }
 
         /* Specific styling for individual buttons */
         .titlebar-min,
         .titlebar-max,
         .titlebar-close {
-            margin-right: 8px !important;
+            margin-right: 7px !important;
         }
     }
 }

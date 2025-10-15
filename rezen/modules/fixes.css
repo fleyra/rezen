@@ -19,6 +19,15 @@
     }
 }
 
+/* --- Hide back and forward buttons --- */
+@media (-moz-bool-pref: "rezen-hide.back-forward") {
+
+    :root:not([customizing]) #back-button,
+    :root:not([customizing]) #forward-button {
+        display: none !important;
+    }
+}
+
 /* --- Clear Bookmarks Menu --- */
 #BMB_viewBookmarksSidebar,
 #BMB_searchBookmarks,

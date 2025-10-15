@@ -27,6 +27,11 @@
     },
     {
         "type": "checkbox",
+        "property": "rezen-hide.back-forward",
+        "label": "Hide back and forward buttons."
+    },
+    {
+        "type": "checkbox",
         "property": "rezen-custom-audio-indicator",
         "label": "Enable custom audio indicator."
     },

@@ -11,7 +11,7 @@
     }
 
     :root[zen-single-toolbar="true"] #nav-bar {
-        margin-bottom: 8px !important;
+        margin-bottom: 11px !important;
         /* Adjust gap between urlbar and extensions */
     }
 
@@ -20,7 +20,7 @@
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: wrap !important;
-        gap: calc(var(--zen-toolbox-padding) - 3px) !important;
+        gap: calc(var(--zen-toolbox-padding) - 2px) !important;
 
         #tabbrowser-tabs {
             min-width: 100% !important;

@@ -32,6 +32,11 @@
     },
     {
         "type": "checkbox",
+        "property": "rezen-auto.hide.top.buttons",
+        "label": "Auto-hide sidebar top buttons."
+    },
+    {
+        "type": "checkbox",
         "property": "rezen-custom-audio-indicator",
         "label": "Enable custom audio indicator."
     },

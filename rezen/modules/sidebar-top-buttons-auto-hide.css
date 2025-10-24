@@ -1,0 +1,15 @@
+/* --- Auto-hide sidebar top buttons --- */
+@media (-moz-bool-pref: "rezen-auto.hide.top.buttons") {
+    #zen-sidebar-top-buttons {
+        transition: all 0.2s ease-in-out !important;
+        margin-top: 0 !important;
+    }
+
+    #navigator-toolbox {
+        #zen-sidebar-top-buttons:not(:hover):not(:has([open="true"])):has(toolbarbutton:not([hidden="true"])) {
+            margin-top: -23px !important;
+            margin-bottom: 0 !important;
+            opacity: 0 !important;
+        }
+    }
+}

@@ -72,3 +72,12 @@
         box-shadow: none !important;
     }
 }
+
+/* --- Hide URL bar page action buttons --- */
+:root[zen-single-toolbar='true'] {
+    #urlbar {
+        #page-action-buttons {
+            display: none !important;
+        }
+    }
+}

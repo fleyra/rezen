@@ -2,12 +2,12 @@
     {
         "type": "checkbox",
         "property": "rezen-marginless",
-        "label": "Enables marginless mode."
+        "label": "Marginless mode."
     },
     {
         "type": "checkbox",
         "property": "rezen-compact.marginless",
-        "label": "Enables marginless only on compact mode."
+        "label": "Marginless only on compact mode."
     },
     {
         "type": "checkbox",
@@ -38,7 +38,7 @@
     {
         "type": "checkbox",
         "property": "rezen-custom-audio-indicator",
-        "label": "Enable custom audio indicator."
+        "label": "Custom audio indicator."
     },
     {
         "type": "checkbox",
@@ -48,7 +48,7 @@
     {
         "type": "checkbox",
         "property": "rezen-pinned.extensions",
-        "label": "Enable pinned extensions."
+        "label": "Pinned extensions."
     },
     {
         "type": "checkbox",
@@ -63,13 +63,13 @@
     {
         "type": "checkbox",
         "property": "gfx.webrender.super-resolution.nvidia",
-        "label": "Enable Nvidia Video Super Resolution (Enable Both).",
+        "label": "Nvidia Video Super Resolution (Enable Both).",
         "restart": true
     },
     {
         "type": "checkbox",
         "property": "gfx.webrender.dcomp-video-hw-overlay-win-force-enabled",
-        "label": "Enable Nvidia Video Super Resolution (Enable Both).",
+        "label": "Nvidia Video Super Resolution (Enable Both).",
         "restart": true
     }
 ]

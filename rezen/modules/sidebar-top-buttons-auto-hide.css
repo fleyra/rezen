@@ -6,7 +6,7 @@
     }
 
     #navigator-toolbox {
-        #zen-sidebar-top-buttons:not(:hover):not(:has([open="true"])):has(toolbarbutton:not([hidden="true"])) {
+        #zen-sidebar-top-buttons:not(:hover):not(:has([open="true"])):has(toolbarbutton:not([hidden="true"])):not([customizing]) {
             margin-top: -23px !important;
             margin-bottom: 0 !important;
             opacity: 0 !important;

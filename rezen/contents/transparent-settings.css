@@ -26,7 +26,9 @@ html:has([data-l10n-id]) {
     font-weight: bold !important;
     box-shadow: #0008 0 0 10px !important;
     border: #0008 1px solid !important;
-    transition: all 0.3s ease-in-out !important;
+    /* Optimize transition: specify properties instead of 'all' */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+    will-change: transform, opacity; /* Performance hint for animations */
 }
 
 @-moz-document url(about:config), url(about:support){
@@ -36,12 +38,14 @@ html,
     background-color: transparent !important;
 }
 
+/* Consolidated: combine table and tr selectors */
 tr,
 table {
     background-color: transparent !important;
     border: none !important;
 }
 
+/* Separate outline for tr only */
 tr {
     outline: solid 1px #88888822 !important;
 }
@@ -64,6 +68,7 @@ body,
 .personalizeButtonWrapper {
     opacity: 0 !important;
     transition: opacity 0.3s ease-in-out;
+    will-change: opacity; /* GPU acceleration hint */
 
     &:hover {
         opacity: 1 !important;
@@ -93,13 +98,12 @@ body,
 
 @-moz-document url(addons.mozilla.org){
 
-/* transparency */
+/* transparency - consolidated declarations */
 html,
 body,
 nav,
 header {
-    background-color: transparent !important;
-    background: none !important;
+    background: transparent !important; /* Shorthand is more efficient than separate background-color */
     border: none !important;
     box-shadow: none !important;
 }

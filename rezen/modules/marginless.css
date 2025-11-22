@@ -9,6 +9,7 @@
         #zen-appcontent-navbar-wrapper {
             position: absolute;
             width: 100% !important;
+            contain: layout style; /* CSS containment for better performance */
         }
 
         #zen-tabbox-wrapper {

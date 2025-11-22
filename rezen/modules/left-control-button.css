@@ -16,7 +16,9 @@
             margin-right: 5px !important;
             border-radius: 50px;
             border: 0px solid rgb(0 0 0 / 10%);
-            transition: all 100ms;
+            /* Optimize transition: specify only animated properties */
+            transition: background-color 100ms, opacity 100ms, transform 100ms;
+            will-change: background-color, opacity; /* GPU acceleration hint */
         }
 
         .titlebar-close {

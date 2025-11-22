@@ -47,6 +47,7 @@
             order: -1 !important;
             background-color: light-dark(var(--extension-light-color), var(--extension-dark-color)) !important;
             border-radius: calc(var(--border-radius-medium) - 0.5px) !important;
+            contain: layout style; /* CSS containment for isolated rendering */
         }
 
         .unified-extensions-item:hover {

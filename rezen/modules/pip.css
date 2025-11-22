@@ -47,7 +47,7 @@
             @keyframes pip-fadein-html {
                 0% {
                     background-color: transparent;
-                    scale: 0.8;
+                    scale: 0.8; /* Modern scale property is GPU-accelerated */
                 }
 
                 99% {
@@ -93,11 +93,13 @@
 
             html {
                 animation: pip-fadein-html 0.5s ease !important;
+                will-change: transform, background-color; /* GPU acceleration for animation */
             }
 
             .player-holder {
                 animation: pip-fadein-player 0.5s ease !important;
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                will-change: filter, opacity; /* GPU acceleration for blur animation */
             }
 
             #controls {
@@ -110,6 +112,7 @@
                     filter: blur(5px);
                     border-radius: 6px !important;
                     transition: opacity 0.3s ease, top 0.3s ease, filter 0.3s ease, background-color 0.2s ease !important;
+                    will-change: opacity, filter; /* Performance hint */
                     backdrop-filter: saturate(var(--nebula-mat-hz-saturation)) contrast(var(--nebula-mat-hz-contrast)) blur(var(--nebula-mat-hz-blur-radius)) !important;
                     background-image: none !important;
                     background-color: var(--nebula-mat-hz-background) !important;
@@ -175,6 +178,7 @@
                     backdrop-filter: saturate(3) contrast(2) blur(var(--nebula-mat-hz-blur-radius)) !important;
                     filter: blur(10px);
                     transition: opacity 0.3s ease, bottom 0.3s ease, filter 0.3s ease !important;
+                    will-change: opacity, filter; /* Performance hint */
                     border: 2px solid light-dark(rgba(20, 20, 20, 0.1), rgba(235, 235, 235, 0.1)) !important;
                     left: calc(50% - 5px) !important;
                     transform: translateX(-50%) !important;

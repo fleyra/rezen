@@ -1,7 +1,9 @@
 /* --- Auto-hide sidebar top buttons --- */
 @media (-moz-bool-pref: "rezen-auto.hide.top.buttons") {
     #zen-sidebar-top-buttons {
-        transition: all 0.2s ease-in-out !important;
+        /* Optimize transition: specify properties instead of 'all' for better performance */
+        transition: margin-top 0.2s ease-in-out, margin-bottom 0.2s ease-in-out, opacity 0.2s ease-in-out !important;
+        will-change: margin-top, opacity; /* Hint browser for GPU acceleration */
         margin-top: 0 !important;
     }
 

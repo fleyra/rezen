@@ -10,8 +10,18 @@
     -moz-window-dragging: no-drag !important;
 }
 
+/* --- Custom background for selected essential--- */
+.zen-essentials-container {
+    .tabbrowser-tab:is([selected], [visuallyselected]) .tab-background {
+        &::before {
+            opacity: 0;
+        }
+    }
+}
+
 /* --- Hide back and forward buttons when they are not needed --- */
 @media (-moz-bool-pref: "rezen-auto.back-forward") {
+
     /* Optimized selector: group common ancestor */
     :root:not([customizing]) #back-button[disabled],
     :root:not([customizing]) #forward-button[disabled] {
@@ -21,6 +31,7 @@
 
 /* --- Hide back and forward buttons --- */
 @media (-moz-bool-pref: "rezen-hide.back-forward") {
+
     /* Optimized selector: group common ancestor */
     :root:not([customizing]) #back-button,
     :root:not([customizing]) #forward-button {

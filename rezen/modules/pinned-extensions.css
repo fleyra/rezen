@@ -11,7 +11,7 @@
     }
 
     :root[zen-single-toolbar="true"] #nav-bar {
-        margin-bottom: 11px !important;
+        margin-bottom: 8px !important;
         /* Adjust gap between urlbar and extensions */
     }
 
@@ -24,7 +24,7 @@
 
         #tabbrowser-tabs {
             min-width: 100% !important;
-            height: calc(100% - 27px) !important;
+            height: calc(100% - 35px) !important;
             transform: translateY(-1px);
         }
 
@@ -47,7 +47,8 @@
             order: -1 !important;
             background-color: light-dark(var(--extension-light-color), var(--extension-dark-color)) !important;
             border-radius: calc(var(--border-radius-medium) - 0.5px) !important;
-            contain: layout style; /* CSS containment for isolated rendering */
+            contain: layout style;
+            /* CSS containment for isolated rendering */
         }
 
         .unified-extensions-item:hover {

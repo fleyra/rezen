@@ -1,9 +1,9 @@
 /* --- UI Font ---*/
-:root {
+/* :root {
     font-family: "SF Pro Text", sans-serif !important;
-    /* font-size: 12px !important; */
-    /* letter-spacing: 0.2px !important; */
-}
+    font-size: 12px !important;
+    letter-spacing: 0.2px !important;
+} */
 
 /* --- Disable the sidebar from being dragged as a window --- */
 #TabsToolbar {

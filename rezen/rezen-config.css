@@ -1,6 +1,6 @@
 /* Consolidated color-scheme media queries - same value for both light and dark */
 :root {
-    --pins-bg-percentage: 7%;
+    --pins-bg-percentage: 10%;
     --extension-dark-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 3%), transparent);
     --extension-dark-hover: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 10%), transparent);
     --extension-light-color: color-mix(in srgb, black var(--pins-bg-percentage), transparent);

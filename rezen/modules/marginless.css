@@ -1,6 +1,6 @@
 /* --- Marginless --- */
 
-@media (-moz-bool-pref: "rezen-marginless") {
+@media (-moz-bool-pref: "extension.rezen.marginless") {
     [zen-single-toolbar="true"]:not(:has(tab-group[split-view-group] .tabbrowser-tab:is([selected="true"], [visuallyselected="true"]))) {
         #zen-appcontent-wrapper {
             position: relative;
@@ -9,7 +9,8 @@
         #zen-appcontent-navbar-wrapper {
             position: absolute;
             width: 100% !important;
-            contain: layout style; /* CSS containment for better performance */
+            contain: layout style;
+            /* CSS containment for better performance */
         }
 
         #zen-tabbox-wrapper {
@@ -25,7 +26,7 @@
 
 /* --- Marginless on Compact Mode --- */
 
-@media (-moz-bool-pref: "rezen-compact.marginless") {
+@media (-moz-bool-pref: "extension.rezen.compact-marginless") {
     :root[zen-compact-mode="true"]:not([customizing]) {
 
         #zen-appcontent-wrapper:not( :has(#tabbrowser-tabpanels[zen-split-view]),

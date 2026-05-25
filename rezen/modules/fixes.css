@@ -1,26 +1,23 @@
-/* --- UI Font ---*/
-/* :root {
-    font-family: "SF Pro Text", sans-serif !important;
-    font-size: 12px !important;
-    letter-spacing: 0.2px !important;
-} */
-
 /* --- Disable the sidebar from being dragged as a window --- */
-#TabsToolbar {
-    -moz-window-dragging: no-drag !important;
+@media (-moz-bool-pref: "extension.rezen.disable-window-dragging") {
+    #TabsToolbar {
+        -moz-window-dragging: no-drag !important;
+    }
 }
 
 /* --- Custom background for selected essential--- */
-.zen-essentials-container {
-    .tabbrowser-tab:is([selected], [visuallyselected]) .tab-background {
-        &::before {
-            opacity: 0;
+@media (-moz-bool-pref: "extension.rezen.custom-essential-background") {
+    .zen-essentials-container {
+        .tabbrowser-tab:is([selected], [visuallyselected]) .tab-background {
+            &::before {
+                opacity: 0;
+            }
         }
     }
 }
 
 /* --- Hide back and forward buttons when they are not needed --- */
-@media (-moz-bool-pref: "rezen-auto.back-forward") {
+@media (-moz-bool-pref: "extension.rezen.auto-back-forward") {
 
     /* Optimized selector: group common ancestor */
     :root:not([customizing]) #back-button[disabled],
@@ -30,7 +27,7 @@
 }
 
 /* --- Hide back and forward buttons --- */
-@media (-moz-bool-pref: "rezen-hide.back-forward") {
+@media (-moz-bool-pref: "extension.rezen.hide-back-forward") {
 
     /* Optimized selector: group common ancestor */
     :root:not([customizing]) #back-button,
@@ -56,7 +53,7 @@
 }
 
 /* --- Dim unloaded tabs --- */
-@media (-moz-bool-pref: "rezen-dim.unloaded.tabs") {
+@media (-moz-bool-pref: "extension.rezen.dim-unloaded-tabs") {
 
     .tab-icon-image[pending="true"],
     .tabbrowser-tab[pending="true"] .tab-text {
@@ -65,7 +62,7 @@
 }
 
 /* --- Hide separators --- */
-@media (-moz-bool-pref: "rezen-hide.separators") {
+@media (-moz-bool-pref: "extension.rezen.hide-separators") {
     menuseparator::before {
         border-top: none !important;
     }
@@ -76,7 +73,7 @@
 }
 
 /* --- Disable box shadows --- */
-@media (-moz-bool-pref: "rezen-disable.box.shadows") {
+@media (-moz-bool-pref: "extension.rezen.disable-box-shadows") {
 
     hbox.browserSidebarContainer,
     #zen-tabbox-wrapper {
@@ -84,11 +81,13 @@
     }
 }
 
-/* --- Hide URL bar page action buttons --- */
-:root[zen-single-toolbar='true'] {
-    #urlbar {
-        #page-action-buttons {
-            display: none !important;
+/* --- Disable URL bar page action buttons --- */
+@media (-moz-bool-pref: "extension.rezen.disable-urlbar-page-action-buttons") {
+    :root[zen-single-toolbar='true'] {
+        #urlbar {
+            #page-action-buttons {
+                display: none !important;
+            }
         }
     }
 }

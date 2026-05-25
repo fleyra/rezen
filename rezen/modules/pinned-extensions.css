@@ -1,4 +1,4 @@
-@media (-moz-bool-pref: "rezen-pinned.extensions") {
+@media (-moz-bool-pref: "extension.rezen.pinned-extensions") {
 
     /* Zen 1.12.6b Fix */
     :root[customizing] #TabsToolbar-customization-target {

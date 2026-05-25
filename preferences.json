@@ -1,12 +1,17 @@
 [
     {
         "type": "checkbox",
-        "property": "rezen-marginless",
+        "property": "extension.rezen.disable-window-dragging",
+        "label": "Disable the sidebar from being dragged as a window."
+    },
+    {
+        "type": "checkbox",
+        "property": "extension.rezen.marginless",
         "label": "Marginless mode."
     },
     {
         "type": "checkbox",
-        "property": "rezen-compact.marginless",
+        "property": "extension.rezen.compact-marginless",
         "label": "Marginless only on compact mode."
     },
     {
@@ -17,47 +22,57 @@
     },
     {
         "type": "checkbox",
-        "property": "rezen-left.control.button",
+        "property": "extension.rezen.left-control-button",
         "label": "MacOS style window control buttons."
     },
     {
         "type": "checkbox",
-        "property": "rezen-auto.back-forward",
+        "property": "extension.rezen.auto-back-forward",
         "label": "Hide back and forward buttons when not needed."
     },
     {
         "type": "checkbox",
-        "property": "rezen-hide.back-forward",
+        "property": "extension.rezen.hide-back-forward",
         "label": "Hide back and forward buttons."
     },
     {
         "type": "checkbox",
-        "property": "rezen-auto.hide.top.buttons",
+        "property": "extension.rezen.auto-hide-top-buttons",
         "label": "Auto-hide sidebar top buttons."
     },
     {
         "type": "checkbox",
-        "property": "rezen-custom-audio-indicator",
+        "property": "extension.rezen.custom-essential-background",
+        "label": "Custom essential background."
+    },
+    {
+        "type": "checkbox",
+        "property": "extension.rezen.custom-audio-indicator",
         "label": "Custom audio indicator."
     },
     {
         "type": "checkbox",
-        "property": "rezen-dim.unloaded.tabs",
+        "property": "extension.rezen.dim-unloaded-tabs",
         "label": "Dim unloaded tabs."
     },
     {
         "type": "checkbox",
-        "property": "rezen-pinned.extensions",
+        "property": "extension.rezen.disable-urlbar-page-action-buttons",
+        "label": "Disable URL bar page action buttons."
+    },
+    {
+        "type": "checkbox",
+        "property": "extension.rezen.pinned-extensions",
         "label": "Pinned extensions."
     },
     {
         "type": "checkbox",
-        "property": "rezen-hide.separators",
+        "property": "extension.rezen.hide-separators",
         "label": "Hide separators."
     },
     {
         "type": "checkbox",
-        "property": "rezen-disable.box.shadows",
+        "property": "extension.rezen.disable-box-shadows",
         "label": "Disable box shadows."
     },
     {

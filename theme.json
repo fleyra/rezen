@@ -4,9 +4,9 @@
     "author": "fleyra",
     "name": "Rezen",
     "description": "A little mod for Zen Browser",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "createdAt": "2025-06-30",
-    "updatedAt": "2026-05-26",
+    "updatedAt": "2026-05-27",
     "readme": "https://raw.githubusercontent.com/fleyra/rezen/main/README.md",
     "preferences": "https://raw.githubusercontent.com/fleyra/rezen/main/preferences.json",
     "style": {

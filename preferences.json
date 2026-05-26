@@ -2,7 +2,7 @@
     {
         "type": "checkbox",
         "property": "extension.rezen.disable-window-dragging",
-        "label": "Disable the sidebar from being dragged as a window."
+        "label": "Disable sidebar from being dragged as a window."
     },
     {
         "type": "checkbox",
@@ -17,7 +17,7 @@
     {
         "type": "checkbox",
         "property": "zen.view.experimental-force-window-controls-left",
-        "label": "Force window control buttons to the left.",
+        "label": "Window control buttons on the left.",
         "restart": true
     },
     {
@@ -44,6 +44,11 @@
         "type": "checkbox",
         "property": "extension.rezen.custom-essential-background",
         "label": "Custom essential background."
+    },
+    {
+        "type": "checkbox",
+        "property": "extension.rezen.colored-container-tab",
+        "label": "Colored container tabs."
     },
     {
         "type": "checkbox",

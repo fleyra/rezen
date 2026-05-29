@@ -9,14 +9,14 @@
         opacity: 0.8 !important;
     }
 
-    .tabbrowser-tab:not([zen-essential]):is([selected], [visuallyselected], [multiselected]) .tab-background {
-        border-left: 32px solid color-mix(in srgb,
+    .tabbrowser-tab:not([zen-essential]):is([split-view]):is([selected], [visuallyselected], [multiselected]) .tab-background {
+        border-left: 26px solid color-mix(in srgb,
                 var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
                 transparent) !important;
     }
 
-    .tabbrowser-tab:is([split-view], [selected], [visuallyselected], [multiselected]) .tab-background {
-        border-left: 26px solid color-mix(in srgb,
+    .tabbrowser-tab:not([zen-essential]):is([selected], [visuallyselected], [multiselected]) .tab-background {
+        border-left: 32px solid color-mix(in srgb,
                 var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
                 transparent) !important;
     }

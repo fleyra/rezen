@@ -15,7 +15,7 @@
                 transparent) !important;
     }
 
-    .tabbrowser-tab:is([split-view]):is([selected], [visuallyselected], [multiselected]) .tab-background {
+    .tabbrowser-tab:is([split-view], [selected], [visuallyselected], [multiselected]) .tab-background {
         border-left: 26px solid color-mix(in srgb,
                 var(--identity-tab-color, var(--tab-group-color-gray-invert)) 20%,
                 transparent) !important;

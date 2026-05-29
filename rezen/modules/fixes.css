@@ -91,3 +91,13 @@
         }
     }
 }
+
+/* --- Zen logo on toolbar menu --- */
+toolbarbutton#PanelUI-menu-button {
+    list-style-image: url("chrome://branding/content/about-logo.svg") !important;
+    filter: grayscale(1) brightness(1.3);
+}
+
+toolbarbutton#PanelUI-menu-button image {
+    scale: 1.5;
+}

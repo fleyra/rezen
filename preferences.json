@@ -1,11 +1,6 @@
 [
     {
         "type": "checkbox",
-        "property": "extension.rezen.disable-window-dragging",
-        "label": "Disable sidebar from being dragged as a window."
-    },
-    {
-        "type": "checkbox",
         "property": "extension.rezen.marginless",
         "label": "Marginless mode."
     },

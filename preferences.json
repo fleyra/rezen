@@ -62,11 +62,6 @@
     },
     {
         "type": "checkbox",
-        "property": "extension.rezen.pinned-extensions",
-        "label": "Pinned extensions."
-    },
-    {
-        "type": "checkbox",
         "property": "extension.rezen.hide-separators",
         "label": "Hide separators."
     },

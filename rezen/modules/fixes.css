@@ -99,3 +99,8 @@ toolbarbutton#PanelUI-menu-button image {
 #TabsToolbar {
     -moz-window-dragging: no-drag !important;
 }
+
+/* --- Hide disabled tab context menu items --- */
+#tabContextMenu>menuitem[disabled] {
+    visibility: collapse !important;
+}

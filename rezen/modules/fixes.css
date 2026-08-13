@@ -95,11 +95,6 @@ toolbarbutton#PanelUI-menu-button image {
     scale: 1.5;
 }
 
-/* --- Disable the sidebar from being dragged as a window --- */
-#TabsToolbar {
-    -moz-window-dragging: no-drag !important;
-}
-
 /* --- Hide disabled tab context menu items --- */
 #tabContextMenu>menuitem[disabled] {
     visibility: collapse !important;

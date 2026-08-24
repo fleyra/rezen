@@ -28,14 +28,14 @@
             scale: 0.9 !important;
             margin-left: -2px !important;
             background-color: var(--zen-toolbar-element-bg) !important;
-            border: 0.1px solid var(--zen-toolbar-element-bg) !important;
+            /* border: 0.1px solid var(--zen-toolbar-element-bg) !important; */
         }
 
         .titlebar-min {
             content: none !important;
             scale: 0.9 !important;
             background-color: var(--zen-toolbar-element-bg) !important;
-            border: 1.1px solid var(--zen-toolbar-element-bg) !important;
+            /* border: 1.1px solid var(--zen-toolbar-element-bg) !important; */
         }
 
         .titlebar-max,
@@ -44,7 +44,7 @@
             scale: 0.9 !important;
             margin-left: 0.8px !important;
             background-color: var(--zen-toolbar-element-bg) !important;
-            border: 1.1px solid var(--zen-toolbar-element-bg) !important;
+            /* border: 1.1px solid var(--zen-toolbar-element-bg) !important; */
         }
 
         /* For SVG icons */

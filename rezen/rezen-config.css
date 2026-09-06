@@ -1,5 +1,6 @@
 /* Consolidated color-scheme media queries - same value for both light and dark */
 :root {
+    --zen-squircle-value: 1.5 !important;
     --pins-bg-percentage: 10%;
     --extension-dark-color: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 3%), transparent);
     --extension-dark-hover: color-mix(in srgb, white calc(var(--pins-bg-percentage) + 10%), transparent);

@@ -42,11 +42,6 @@
     },
     {
         "type": "checkbox",
-        "property": "extension.rezen.colored-container-tab",
-        "label": "Colored container tabs."
-    },
-    {
-        "type": "checkbox",
         "property": "extension.rezen.custom-audio-indicator",
         "label": "Custom audio indicator."
     },

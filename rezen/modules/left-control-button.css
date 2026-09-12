@@ -9,7 +9,6 @@
         }
 
         .titlebar-button {
-            --zen-squircle-value: 1 !important;
             padding: 0px !important;
             min-height: 14px !important;
             min-width: 14px !important;

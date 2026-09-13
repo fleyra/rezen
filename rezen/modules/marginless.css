@@ -1,6 +1,5 @@
-/* --- Marginless --- */
-
 @media (not (-moz-pref("extension.rezen.marginless", 0))) {
+    /* --- Marginless --- */
     @media (-moz-pref("extension.rezen.marginless", 1)) {
         :root:not([customizing]) {
 

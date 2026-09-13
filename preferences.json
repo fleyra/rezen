@@ -1,8 +1,21 @@
 [
     {
-        "type": "checkbox",
-        "property": "extension.rezen.marginless",
-        "label": "Marginless mode."
+    "type": "dropdown",
+    "value": "number",
+    "label": "Select Marginless Mode",
+    "property": "extension.rezen.marginless",
+    "placeholder": "Disable",
+	"defaultValue": "0",
+    "options": [
+      {
+        "label": "Enable",
+        "value": 1
+      },
+      {
+        "label": "Compact Mode Only",
+        "value": 2
+      }
+    ]
     },
     {
         "type": "checkbox",

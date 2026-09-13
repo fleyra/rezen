@@ -1,0 +1,21 @@
+@media (not (-moz-pref("extension.rezen.back-forward-buttons", 0))) {
+    /* --- Hide back and forward buttons --- */
+    @media (-moz-pref("extension.rezen.back-forward-buttons", 1)) {
+
+        /* Optimized selector: group common ancestor */
+        :root:not([customizing]) #back-button,
+        :root:not([customizing]) #forward-button {
+            display: none !important;
+        }
+    }
+
+    /* --- Hide back and forward buttons when they are not needed --- */
+    @media (-moz-pref("extension.rezen.back-forward-buttons", 2)) {
+
+        /* Optimized selector: group common ancestor */
+        :root:not([customizing]) #back-button[disabled],
+        :root:not([customizing]) #forward-button[disabled] {
+            display: none !important;
+        }
+    }
+}

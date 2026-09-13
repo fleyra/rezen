@@ -1,26 +1,21 @@
 [
     {
-    "type": "dropdown",
-    "value": "number",
-    "label": "Select Marginless Mode",
-    "property": "extension.rezen.marginless",
-    "placeholder": "Disable",
-	"defaultValue": "0",
-    "options": [
-      {
-        "label": "Enable",
-        "value": 1
-      },
-      {
-        "label": "Compact Mode Only",
-        "value": 2
-      }
-    ]
-    },
-    {
-        "type": "checkbox",
-        "property": "extension.rezen.compact-marginless",
-        "label": "Marginless only on compact mode."
+        "type": "dropdown",
+        "value": "number",
+        "label": "Select Marginless Mode",
+        "property": "extension.rezen.marginless",
+        "placeholder": "Disable",
+	    "defaultValue": "0",
+        "options": [
+            {
+                "label": "Enable",
+                "value": 1
+            },
+            {
+                "label": "Compact Mode Only",
+                "value": 2
+            }
+        ]
     },
     {
         "type": "checkbox",
@@ -34,14 +29,22 @@
         "label": "MacOS style window control buttons."
     },
     {
-        "type": "checkbox",
-        "property": "extension.rezen.auto-back-forward",
-        "label": "Hide back and forward buttons when not needed."
-    },
-    {
-        "type": "checkbox",
-        "property": "extension.rezen.hide-back-forward",
-        "label": "Hide back and forward buttons."
+        "type": "dropdown",
+        "value": "number",
+        "label": "Back and forward buttons",
+        "property": "extension.rezen.back-forward-buttons",
+        "placeholder": "Show",
+	    "defaultValue": "0",
+        "options": [
+            {
+                "label": "Hide",
+                "value": 1
+            },
+            {
+                "label": "Auto",
+                "value": 2
+            }
+        ]
     },
     {
         "type": "checkbox",

@@ -1,18 +1,16 @@
 {
     "id": "rezen",
-    "homepage": "https://github.com/fleyra/rezen",
-    "author": "fleyra",
     "name": "Rezen",
     "description": "A little mod for Zen Browser",
-    "version": "1.4.9",
-    "createdAt": "2025-06-30",
-    "updatedAt": "2026-09-13",
     "readme": "https://raw.githubusercontent.com/fleyra/rezen/main/README.md",
-    "preferences": "https://raw.githubusercontent.com/fleyra/rezen/main/preferences.json",
+    "homepage": "https://github.com/fleyra/rezen",
+    "author": "fleyra",
+    "version": "1.4.9",
     "style": {
         "chrome": "https://raw.githubusercontent.com/fleyra/rezen/main/userChrome.css",
         "content": "https://raw.githubusercontent.com/fleyra/rezen/main/userContent.css"
     },
+    "preferences": "https://raw.githubusercontent.com/fleyra/rezen/main/preferences.json",
     "tags": ["content", "chrome", "minimal"],
     "fork": ["zen"]
 }

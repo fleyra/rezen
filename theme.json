@@ -5,7 +5,7 @@
     "readme": "https://raw.githubusercontent.com/fleyra/rezen/main/README.md",
     "homepage": "https://github.com/fleyra/rezen",
     "author": "fleyra",
-    "version": "1.4.9",
+    "version": "1.4.9hf",
     "style": {
         "chrome": "https://raw.githubusercontent.com/fleyra/rezen/main/userChrome.css",
         "content": "https://raw.githubusercontent.com/fleyra/rezen/main/userContent.css"

@@ -58,11 +58,6 @@
     },
     {
         "type": "checkbox",
-        "property": "extension.rezen.custom-audio-indicator",
-        "label": "Custom audio indicator."
-    },
-    {
-        "type": "checkbox",
         "property": "extension.rezen.dim-unloaded-tabs",
         "label": "Dim unloaded tabs."
     },

@@ -9,12 +9,13 @@
         }
 
         .titlebar-button {
+            --zen-squircle-value: 1 !important;
             padding: 0px !important;
             min-height: 14px !important;
             min-width: 14px !important;
             align-self: center;
             margin-right: 5px !important;
-            border-radius: 50px !important;
+            border-radius: 50px;
             border: 0px solid rgb(0 0 0 / 10%);
             /* Optimize transition: specify only animated properties */
             transition: background-color 100ms, opacity 100ms, transform 100ms;

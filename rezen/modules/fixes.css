@@ -76,6 +76,6 @@ toolbarbutton#PanelUI-menu-button image {
 }
 
 /* --- Hide disabled tab context menu items --- */
-#tabContextMenu>menuitem[disabled] {
+/* #tabContextMenu>menuitem[disabled] {
     visibility: collapse !important;
-}
+} */

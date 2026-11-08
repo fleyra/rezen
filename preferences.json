@@ -68,12 +68,17 @@
     },
     {
         "type": "checkbox",
-        "property": "extension.rezen.hide-separators",
-        "label": "Hide separators."
+        "property": "extension.rezen.tidy-bookmarks-menu",
+        "label": "Tidy bookmarks menu."
     },
     {
         "type": "checkbox",
         "property": "extension.rezen.disable-box-shadows",
         "label": "Disable box shadows."
+    },
+    {
+        "type": "checkbox",
+        "property": "extension.rezen.hide-disabled-tab-context-menu",
+        "label": "Hide disabled tab context menu items."
     }
 ]

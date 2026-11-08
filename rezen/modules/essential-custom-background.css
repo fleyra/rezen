@@ -1,0 +1,10 @@
+/* --- Custom background for selected essential--- */
+@media (-moz-bool-pref: "extension.rezen.custom-essential-background") {
+    .zen-essentials-container {
+        .tabbrowser-tab:is([selected], [visuallyselected]) .tab-background {
+            &::before {
+                opacity: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+/* --- Tidy Bookmarks Menu --- */
+@media (-moz-bool-pref: "extension.rezen.tidy-bookmarks-menu") {
+
+    #BMB_viewBookmarksSidebar,
+    #BMB_searchBookmarks,
+    #BMB_bookmarksShowAllTop,
+    #BMB_bookmarksShowAll {
+        display: none !important;
+    }
+
+    #bookmarks-menu-button #BMB_viewBookmarksToolbar {
+        display: none !important;
+    }
+
+    #BMB_bookmarksPopup menuseparator {
+        display: none;
+    }
+}

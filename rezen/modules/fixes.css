@@ -1,47 +1,9 @@
-/* --- Custom background for selected essential--- */
-@media (-moz-bool-pref: "extension.rezen.custom-essential-background") {
-    .zen-essentials-container {
-        .tabbrowser-tab:is([selected], [visuallyselected]) .tab-background {
-            &::before {
-                opacity: 0;
-            }
-        }
-    }
-}
-
-/* --- Clear Bookmarks Menu --- */
-#BMB_viewBookmarksSidebar,
-#BMB_searchBookmarks,
-#BMB_bookmarksShowAllTop,
-#BMB_bookmarksShowAll {
-    display: none !important;
-}
-
-#bookmarks-menu-button #BMB_viewBookmarksToolbar {
-    display: none !important;
-}
-
-#BMB_bookmarksPopup menuseparator {
-    display: none;
-}
-
 /* --- Dim unloaded tabs --- */
 @media (-moz-bool-pref: "extension.rezen.dim-unloaded-tabs") {
 
     .tab-icon-image[pending="true"],
     .tabbrowser-tab[pending="true"] .tab-text {
         opacity: 0.5 !important;
-    }
-}
-
-/* --- Hide separators --- */
-@media (-moz-bool-pref: "extension.rezen.hide-separators") {
-    menuseparator::before {
-        border-top: none !important;
-    }
-
-    menuseparator {
-        padding-block: 0px !important;
     }
 }
 
@@ -74,8 +36,3 @@ toolbarbutton#PanelUI-menu-button {
 toolbarbutton#PanelUI-menu-button image {
     scale: 1.5;
 }
-
-/* --- Hide disabled tab context menu items --- */
-/* #tabContextMenu>menuitem[disabled] {
-    visibility: collapse !important;
-} */

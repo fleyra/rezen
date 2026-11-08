@@ -1,0 +1,6 @@
+/* --- Hide disabled tab context menu items --- */
+@media (-moz-bool-pref: "extension.rezen.hide-disabled-tab-context-menu") {
+    #tabContextMenu>menuitem[disabled] {
+        visibility: collapse !important;
+    }
+}

@@ -80,5 +80,10 @@
         "type": "checkbox",
         "property": "extension.rezen.hide-disabled-tab-context-menu",
         "label": "Hide disabled tab context menu items."
+    },
+    {
+        "type": "checkbox",
+        "property": "extension.rezen.rounder-corners",
+        "label": "Enable rounder corners."
     }
 ]

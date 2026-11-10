@@ -1,3 +1,10 @@
+/* --- Rounder corners --- */
+@media (-moz-bool-pref: "extension.rezen.rounder-corners") {
+    :root {
+        --zen-squircle-value: 1.5 !important;
+    }
+}
+
 /* --- Dim unloaded tabs --- */
 @media (-moz-bool-pref: "extension.rezen.dim-unloaded-tabs") {
 

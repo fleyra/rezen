@@ -83,7 +83,7 @@
     },
     {
         "type": "checkbox",
-        "property": "extension.rezen.rounder-corners",
-        "label": "Enable rounder corners."
+        "property": "extension.rezen.squircle-tabs",
+        "label": "Squircle tabs."
     }
 ]

@@ -1,5 +1,5 @@
-/* --- Rounder corners --- */
-@media (-moz-bool-pref: "extension.rezen.rounder-corners") {
+/* --- Squircle tabs --- */
+@media (-moz-bool-pref: "extension.rezen.squircle-tabs") {
     :root {
         --zen-squircle-value: 1.5 !important;
     }
